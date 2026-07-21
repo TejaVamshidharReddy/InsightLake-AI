@@ -6,9 +6,11 @@ app = FastAPI(
     description="API layer for curated analytics and AI-assisted insights.",
 )
 
+
 @app.get("/health")
 def health() -> dict[str, str]:
     return {"status": "healthy"}
+
 
 @app.get("/")
 def root() -> dict[str, str]:
