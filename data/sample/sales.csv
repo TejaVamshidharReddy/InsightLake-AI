@@ -1,0 +1,4 @@
+order_id,customer_id,product_id,order_date,quantity,unit_price
+1001,C001,P100,2026-01-10,2,24.99
+1002,C002,P101,2026-01-10,1,59.99
+1003,C001,P102,2026-01-11,3,14.50

@@ -1,0 +1,17 @@
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+.env
+.DS_Store
+.idea/
+.vscode/
+dist/
+build/
+*.egg-info/
+data/raw/
+spark-warehouse/
+.metastore_db/
